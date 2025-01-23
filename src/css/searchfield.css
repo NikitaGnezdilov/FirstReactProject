@@ -1,0 +1,29 @@
+.search-bar {
+	width: 200px;
+}
+
+.input-field {
+	background-color: transparent;
+	color: white;
+  font-size: 15px;
+	border: none;
+	border-bottom: 2px solid white;
+	padding: 5px 0px;
+	outline: none;
+	width: 100%;
+}
+
+.input-field::placeholder {
+	color: white;
+  transition: color 0.2s ease;
+}
+
+.input-field:hover::placeholder {
+  color: lightgray; 
+}
+
+.search_icon {
+	cursor: pointer;
+	margin-top: 10px;
+	margin-left: 5px;
+}

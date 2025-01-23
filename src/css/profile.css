@@ -1,0 +1,53 @@
+.profile {
+  position: relative;
+}
+
+.profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.profile-menu {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.profile-menu.show {
+  display: block; /* Показываем, когда состояние showProfileMenu == true */
+}
+
+.profile-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-menu li {
+  padding: 10px;
+  text-align: center;
+}
+
+.profile-menu li button {
+  background: none;
+  border: none;
+  color: #333;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.profile-menu li button:hover {
+  color: #00bfff;
+}

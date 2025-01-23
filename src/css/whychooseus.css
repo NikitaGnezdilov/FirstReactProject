@@ -1,0 +1,44 @@
+.why_our_site {
+  padding: 40px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 45px;
+  color: white;
+  background-color: #333; 
+  text-align: center; 
+}
+
+.why_our_site h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.why_our_site p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.why_our_site ul {
+  list-style: none; 
+  padding-left: 0;
+  margin-bottom: 20px; 
+}
+
+.why_our_site ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  padding: 10px 0; 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.why_our_site ul li:last-child {
+  border-bottom: none; 
+}
+
+.why_our_site p:last-child {
+  text-align: center;
+  font-weight: bold;
+}

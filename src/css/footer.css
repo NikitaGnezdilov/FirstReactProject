@@ -1,0 +1,55 @@
+.footer {
+  background-color: #121212;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto; /* Центрирование содержимого */
+  padding: 0 20px; /* Отступы для предотвращения прилипания к краям */
+}
+
+.footer__section {
+  max-width: 300px;
+  text-align: left; /* Или center, если нужно центрировать текст внутри секций */
+  margin-bottom: 20px;
+}
+
+.footer__section h4 {
+  margin-bottom: 10px;
+}
+
+.footer__section p {
+  margin: 5px 0;
+}
+
+.footer__section a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer__section a:hover {
+  color: #ff6f61; /* Изменение цвета при наведении */
+}
+
+.footer__bottom {
+  border-top: 1px solid white;
+  padding-top: 10px;
+}
+
+.footer__bottom-line {
+  width: 100vw; /* Устанавливает ширину линии на всю ширину окна */
+  border-top: 1px solid white;
+  position: absolute;
+  left: 0;
+  top: 0;
+}

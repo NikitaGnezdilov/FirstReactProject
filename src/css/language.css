@@ -1,0 +1,17 @@
+.language-selector {
+	position: relative;
+}
+
+.language-selector select {
+  right: 0;
+	background: transparent;
+  cursor: pointer;
+	color: white;
+	border: none;
+	font-size: 16px;
+}
+
+.language-selector option {
+  background-color: rgba(0, 0, 0, 0.8); /* Темный фон для опций */
+  color: white; /* Белый текст для опций */
+}

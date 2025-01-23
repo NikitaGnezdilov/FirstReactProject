@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 10px 200px;
+  transition: background-color 0.3s ease; /* Плавный переход фона */
+  border-bottom: 2px solid white;
+}
+
+
+.search__cont {
+  display: flex;
+  align-items: center;
+}
+
+

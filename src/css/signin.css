@@ -1,0 +1,72 @@
+/* Стили для контейнера в SignIn */
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Стили для коробки входа */
+.signin-box {
+  width: 400px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Стили для заголовка */
+.signin-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Стили для группы ввода */
+.signin-box .input-group {
+  margin-bottom: 15px;
+}
+
+/* Стили для меток */
+.signin-box .input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Стили для полей ввода */
+.signin-box .input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Стили для кнопки */
+.signin-box .btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signin-box .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Стили для ссылок */
+.signin-box .signup-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.signin-box .signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signin-box .signup-link a:hover {
+  text-decoration: underline;
+}
